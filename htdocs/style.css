@@ -1,0 +1,52 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1270px 764px;
+}
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 26px;
+    background: white;
+}
+h1.login-title {
+    color: #666;
+    margin: 0px auto 26px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 26px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:yellowgreen;
+    outline: none;
+}
+.login-button {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    color: blueviolet;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: lightgreen;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
